@@ -3,7 +3,7 @@ function updateTime() {
     const now = new Date();
     // Add 1 hour, 31 minutes, and 27 seconds to the current time
     now.setHours(now.getHours() + 0);
-    now.setMinutes(now.getMinutes() + 35);
+    now.setMinutes(now.getMinutes() + 0);
     now.setSeconds(now.getSeconds() + 0);
     
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -189,7 +189,7 @@ function playRandomSong() {
 function playRandomSongAtTopOfHour() {
     // Get the current time
     const now = new Date();
-    now.setMinutes(now.getMinutes() + 35);
+    now.setMinutes(now.getMinutes() + 0);
     now.setSeconds(now.getSeconds() + 0);
 
     // Calculate the time until the next hour
